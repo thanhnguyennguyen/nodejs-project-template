@@ -1,0 +1,40 @@
+{
+  "name": "tomoscan-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development nodemon ./src/server.js",
+    "start": "cross-env NODE_ENV=production node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:tomochain/tomoscan-v2.git"
+  },
+  "author": "NguyenNguyen(nguyenbk92@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.2",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "lodash.map": "^4.6.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "eslint-plugin-vue": "^7.1.0",
+    "eslint-webpack-plugin": "^2.3.0"
+  }
+}
